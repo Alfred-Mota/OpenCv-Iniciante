@@ -29,3 +29,12 @@ python -m venv 'Caminho da Pasta'
     Compativel com Python 3.10.4+
 * Usar Torch 2.2.1, o computador nao possui CUDA
 * Numpy 2.X nao é compativel com Torch 2.2.1, reinstalar para NumPy 1.26.4
+
+### image open: https://storage.googleapis.com/openimages/web/download_v7.html
+
+### Para realizar o download das imagens do image open foi necessario fazer o seguinte download:
+curl https://raw.githubusercontent.com/openimages/dataset/master/downloader.py -o downloader.py
+
+### Codigo para fazer o download:
+python downloader.py image_ids.txt --download_folder "c:\CodigoAlfredo\Images_Alpacas" --num_processes 5
+
