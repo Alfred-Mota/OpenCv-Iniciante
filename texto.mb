@@ -36,5 +36,5 @@ python -m venv 'Caminho da Pasta'
 curl https://raw.githubusercontent.com/openimages/dataset/master/downloader.py -o downloader.py
 
 ### Codigo para fazer o download:
-python downloader.py image_ids.txt --download_folder "c:\CodigoAlfredo\Images_Alpacas" --num_processes 5
+python downloader.py image_ids.txt --download_folder "c:\CodigoAlfredo\Images_Alpacas" --num_processes 1
 

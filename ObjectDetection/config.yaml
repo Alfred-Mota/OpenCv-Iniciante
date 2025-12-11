@@ -1,0 +1,8 @@
+#Paths
+path: "c:/CodigoAlfredo/datasetObjectDetection" #Dataset raiz
+train: images/train #train images
+val: images/val #validation images
+
+#Classes
+names:
+  0: alpaca
