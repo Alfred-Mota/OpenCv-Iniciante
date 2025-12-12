@@ -32,6 +32,8 @@ python -m venv 'Caminho da Pasta'
 
 ### image open: https://storage.googleapis.com/openimages/web/download_v7.html
 
+### images em annotaions bbox
+
 ### Para realizar o download das imagens do image open foi necessario fazer o seguinte download:
 curl https://raw.githubusercontent.com/openimages/dataset/master/downloader.py -o downloader.py
 
